@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  width: 10%;
+}
+.home {
+  text-decoration: none;
+  margin: 1 rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+  font-size: 1.5rem;
+  color: black;
+}
+.about {
+  text-decoration: none;
+  margin: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+  font-size: 1.5rem;
+  color: black;
+}
+.dashboard {
+  text-decoration: none;
+  margin: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+  font-size: 1.5rem;
+  color: black;
+}
+.weather {
+  text-decoration: none;
+  margin: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.sidebar {
+  width: 8%;
+}
+/* for profile */
+p1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+  font-style: normal;
+  margin-bottom: 1rem;
+  /* display: inline; */
+}
+.Profilepic {
+  width: 15rem;
+  margin-left: 5rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+/* for weather */
+.weatherbg {
+  background-image: url(/public/weather.jpg);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+h1.heading {
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(249, 162, 0, 0.703);
+  font-size: 6rem;
+  font-weight: 700;
+}
+.searching {
+  display: flex;
+  max-width: 900px;
+  background: rgba(249, 162, 0, 0.703);
+  align-items: center;
+  padding: 24px 20px;
+  border-radius: 60px;
+  padding: 10px 20px;
+}
+
+.searching input {
+  border: 0;
+  width: 70px;
+  background-color: rgba(249, 162, 0, 0);
+  padding: 0;
+  margin-right: 1rem;
+  width: 20rem;
+  flex: 1;
+  border: 0;
+  outline: none;
+  color: black;
+}
+::placeholder {
+  color: white;
+}
+
+.result {
+  border: 1px solid black;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 22rem;
+  margin-top: 1rem;
+}
+.weatherIcon {
+  height: 15vh;
+  width: 15vh;
+}
+.location {
+  font-size: 45px;
+}
+.tempreture,
+.wind,
+.humidity {
+  font-size: 40px;
+}
+.element img {
+  margin-right: 80px;
+}
+/* @media screen and (min-width: 359px) { */
+  /* .weatherbg {
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .result {
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+  h1.heading {
+    font-family: "Courier New", Courier, monospace;
+    color: rgba(249, 162, 0, 0.703);
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  
+ 
+} */
