@@ -1,38 +1,36 @@
-import { createBrowserRouter } from "react-router-dom";
-import Rootlayout from "./layout/Rootlayout";
+import { createBrowserRouter } from 'react-router-dom'
+import Rootlayout from './layout/Rootlayout'
 
-import Dashboard from "./layout/Dashboard";
-import Card from "./layout/Card";
-import Weather from "./layout/Weather";
-import Users from "./layout/Users";
+import Dashboard from './layout/Dashboard'
+import Card from './layout/Card'
+import Weather from './layout/Weather'
+import Users from './layout/Users'
 
 const routerrrr = createBrowserRouter([
   {
-    path: "/",
-    element: <Rootlayout />,
+    path: '/',
+    element: <Weather />,
     children: [
-     
       {
-        path: "weather",
+        path: 'weather',
         element: <Weather />,
       },
     ],
   },
-  
+
   {
-    path: "dashboard",
+    path: 'dashboard',
     element: <Dashboard />,
     children: [
-      
       {
-        path: "users",
+        path: 'users',
         element: <Users />,
       },
       {
-        path: ":id",
+        path: ':id',
         element: <Card />,
       },
     ],
   },
-]);
-export default routerrrr;
+])
+export default routerrrr
